@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import { Text, View, TouchableOpacity, StyleSheet, Image} from 'react-native';
 import * as Permissions from 'expo-permissions';
 import { BarCodeScanner } from 'expo-barcode-scanner';
