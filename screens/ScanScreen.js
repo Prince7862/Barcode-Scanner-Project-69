@@ -52,9 +52,9 @@ export default class TransactionScreen extends React.Component {
         return(
           <View style={styles.container}>
 
-<Image style={styles.imageIcon} source={require('./assets/BarcodeScanner.jpeg')}/>
+<Image style={styles.imageIcon} source={require('../assets/BarcodeScanner.jpeg')}/>
 
-        <Text style={styles.displayText2}>{
+        <Text style={styles.displaytext}>{
             hasCameraPermissions===true ? this.state.scannedData: "Bar code Scanner"
           }</Text>                
 
@@ -91,7 +91,7 @@ export default class TransactionScreen extends React.Component {
     buttonText:{
       fontSize: 20,
     },
-    displayTetx2: {
+    displaytext: {
         fontSize: 40,
     },
     imageIcon: {
